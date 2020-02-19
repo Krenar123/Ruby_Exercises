@@ -44,7 +44,7 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # Printing both of them 
-# When we use +  it will add both of them and will create a long string 
+# When we use +  it take the string in var w and will add to it the string in var e 
 
 # Print variable w + e 
 puts w + e
