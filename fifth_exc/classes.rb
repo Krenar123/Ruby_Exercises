@@ -1,4 +1,4 @@
-# class Shape has the method welcome
+# class Shape has the method welcome and it will be inherited by all other classes
 class Shape
   def welcome
     "Hi, I am Shape, and I am the parent"
