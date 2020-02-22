@@ -46,17 +46,9 @@ class Triangle < Shape
 end
 
 # class Square its added with one var
-class Square < Shape
+class Square < Rectangle
   def initialize(side)
-    @side  = side
-  end
-
-  def area 
-    @side * @side
-  end
-
-  def perimeter
-    @side * 4
+    super(side,side)
   end
 
 end
