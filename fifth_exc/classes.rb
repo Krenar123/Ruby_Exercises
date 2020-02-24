@@ -50,7 +50,7 @@ class Square < Rectangle
   def initialize(side)
     super(side,side)
   end
-
+  
 end
 
 # I tested my code with irb -r command ... 
