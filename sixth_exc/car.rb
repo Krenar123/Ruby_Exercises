@@ -36,7 +36,7 @@ class MyCar
     # If you brake one time the car will stop for 1/3
     # If you brake 3 times car will stop. 
     def brake
-        @curr_speed /= 3
+        return @curr_speed != 0 ? @curr_speed /= 3 : "Car is shutted down."
     end
 
     # Before we shut down we should look if the curr_spped is 0
